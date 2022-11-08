@@ -308,10 +308,10 @@ tokenizers==0.13.1
 toml==0.10.2
 tomli==2.0.1
 tomlkit==0.11.6
-toolz==0.12.0
-torch==1.14.0.dev20221102
-torchaudio==0.14.0.dev20221102
-torchvision==0.15.0.dev20221102
+# toolz==0.12.0
+# torch==1.14.0.dev20221102
+# torchaudio==0.14.0.dev20221102
+# torchvision==0.15.0.dev20221102
 tornado 
 tqdm 
 traitlets 
