@@ -26,8 +26,8 @@ import scipy as sp
 
 
 def load_data():
-        
-    df = pd.read_csv('SP500.csv.zip', compression = 'zip')
+    url = "https://github.com/calebsiow0228/STOCK-RNN/blob/main/SP500.csv.zip?raw=true"
+    df = pd.read_csv(url, compression = 'zip')
     return df
 
 
@@ -131,8 +131,9 @@ def main():
     @st.cache(persist=True)
     def load_data():
         # Path to data: /stock/data/SP500.csv
+        url = "https://github.com/calebsiow0228/STOCK-RNN/blob/main/SP500.csv.zip?raw=true"
         df = pd.read_csv(
-            'SP500.csv.zip', compression='zip')
+            url, compression='zip')
         return df
     df = load_data()
     # get the unique company names
