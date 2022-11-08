@@ -88,7 +88,6 @@ fastnumbers==3.2.1
 filelock==3.8.0
 Flask 
 Flask-Compress==1.12
-flatbuffers==1.12
 flatten-dict==0.4.2
 flit_core
 flufl.lock==7.1.1
