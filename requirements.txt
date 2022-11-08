@@ -4,3 +4,4 @@ plotly
 tensorflow
 numpy 
 scipy
+gunicorn
