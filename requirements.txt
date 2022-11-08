@@ -67,7 +67,6 @@ debugpy
 decorator 
 defusedxml 
 dictdiffer==0.9.0
-discord==2.0.0
 diskcache==5.4.0
 distro==1.8.0
 dnspython==2.2.1
@@ -290,12 +289,6 @@ tangled-up-in-unicode
 tenacity==8.0.1
 tensorboard==2.9.1
 tensorflow==2.10.0
-# tensorboard-data-server==0.6.1
-# tensorboard-plugin-wit==1.8.1
-# tensorflow-estimator==2.9.0
-# tensorflow-macos==2.9.2
-# tensorflow-metal==0.5.1
-# tensorflow-recommenders==0.3.0
 termcolor==1.1.0
 terminado 
 testpath 
@@ -308,10 +301,6 @@ tokenizers==0.13.1
 toml==0.10.2
 tomli==2.0.1
 tomlkit==0.11.6
-# toolz==0.12.0
-# torch==1.14.0.dev20221102
-# torchaudio==0.14.0.dev20221102
-# torchvision==0.15.0.dev20221102
 tornado 
 tqdm 
 traitlets 
