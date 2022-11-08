@@ -1,7 +1,6 @@
 pandas 
 streamlit
 plotly
-tensorflow
+tensorflow-cpu
 numpy 
 scipy
-gunicorn
