@@ -2,12 +2,9 @@ import streamlit as st
 import time
 import plotly.graph_objects as go
 from sklearn.model_selection import train_test_split
-import warnings
-import json
 import os
 import tensorflow as tf
 import plotly.express as px
-import seaborn as sns
 from sklearn import model_selection
 from sklearn.metrics import mean_squared_log_error
 from sklearn.metrics import mean_absolute_percentage_error
@@ -25,11 +22,6 @@ from tensorflow import keras
 import pandas as pd
 import numpy as np
 import scipy as sp
-import matplotlib.pyplot as plt
-warnings.filterwarnings('ignore')
-pd.set_option('display.max_columns', None)
-import requests 
-import zipfile 
 # RNN model for forecasting stock prices with Keras and Tensorflow given a company name
 
 
